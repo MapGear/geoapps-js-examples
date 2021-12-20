@@ -1,0 +1,9 @@
+{
+    "title": "Sketch",
+    "description": "Simple sketch method within GeoApps API that shows the actual and final length of a line segment",
+    "categories": [
+        "map",
+        "interaction",
+        "drawing"
+    ]
+}
