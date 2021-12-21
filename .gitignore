@@ -1,2 +1,4 @@
 node_modules
 [Dd]ist
+package-lock.json
+.parcel-cache

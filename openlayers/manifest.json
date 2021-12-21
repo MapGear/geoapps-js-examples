@@ -1,0 +1,7 @@
+{
+    "title": "OpenLayers integration",
+    "description": "Shows the intgeration between OpenLayers and GeoApps through the javascript API",
+    "categories": [
+        "map"
+    ]
+}
