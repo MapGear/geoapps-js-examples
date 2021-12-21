@@ -5,16 +5,15 @@ function updateLength(length) {
 }
 
 if (geoapps) {
-    geoapps.Initialize("preview.geoapps.nl"); // Connect to tenant
-    var mapId = "ad7764d6-81a6-4b26-b50a-ae57e3fb2512"; // Publiek preview
+    geoapps.Initialize("demo.geoapps.nl"); // Connect to tenant
+    var mapId = "08451f0f-37d8-4c93-89e3-89a3279a4f18"; // Connnect to map
 
     // Initialize a new map
     var map = geoapps.AddMap("map", mapId);
     map.Controls.AddZoomControls();
 
     // Wait for map load to add interactions
-    map.on("loaded", function () {
-        const layer = map.Layers.Items[0];
+    map.onLoaded.add(() => {
 
         $("#StartSketch").on("click", function () {
             map.Interactions.StartSketch("linestring");
