@@ -9,6 +9,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MapGear/geoapps-js-examples/sketch"
+    "url": "https://github.com/MapGear/geoapps-js-examples/tree/master/basic-map"
   }
 }
