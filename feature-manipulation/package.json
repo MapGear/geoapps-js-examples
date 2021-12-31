@@ -1,0 +1,14 @@
+{
+  "name": "vector-layer",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MapGear/geoapps-js-examples/tree/master/feature-manipulation"
+  }
+}
