@@ -24,11 +24,11 @@ if (geoapps) {
         });
 
         map.Interactions.onSketchChanged.add((evt) => {
-            updateLength(evt.Geometry.GetLength());
+            updateLength(evt.geometry.GetLength());
         });
 
         map.Interactions.onSketchCompleted.add((evt) => {
-            updateLength(evt.Feature.GetGeometry().GetLength());
+            updateLength(evt.feature.GetGeometry().GetLength());
         })
     });
 }
