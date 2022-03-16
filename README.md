@@ -2,7 +2,7 @@
 
 ## Usage
 
-This repository contains the code of all the javascript examples for usage with GeoApps. See https://docs.geoapps.dev/examples for the working versions of these examples. More information about the API can be found at https://docs.geoapps.dev
+This repository contains the code of all the javascript examples for usage with GeoApps. See https://developer.geoapps.nl/examples for the working versions of these examples. More information about the API can be found at https://developer.geoapps.nl/
 
 
 ## Contributing
