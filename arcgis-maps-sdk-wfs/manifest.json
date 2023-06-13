@@ -1,0 +1,13 @@
+{
+    "title": "ESRI JS",
+    "description": "Using a GeoApps WFS Layer within the ArcGIS Maps SDK for Javascript",
+    "categories": [
+        "map",
+        "vector",
+        "services",
+        "ogc",
+        "wfs",
+        "esri",
+        "arcgis"
+    ]
+}
